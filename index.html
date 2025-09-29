@@ -1,11 +1,279 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Indivisible - Concord, NC</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indivisible Cabarrus County</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .hero {
+            width: 100%;
+            max-height: 400px;
+            overflow: hidden;
+        }
+        
+        .hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .intro-with-logo {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin: 40px 0;
+        }
+        
+        .intro-logo {
+            flex-shrink: 0;
+        }
+        
+        .intro-logo img {
+            max-width: 180px;
+            height: auto;
+        }
+        
+        .intro-content {
+            flex: 1;
+        }
+        
+        h1, h2 {
+            color: #2c5f7f;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 3px solid #c84848;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        
+        .intro {
+            background: #f5f5f5;
+            padding: 30px;
+            border-left: 5px solid #c84848;
+        }
+        
+        .intro p {
+            margin-bottom: 15px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .social-links a {
+            background: #2c5f7f;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: #1a3d52;
+        }
+        
+        .signup-section {
+            background: #e8f4f8;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .signup-links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+            max-width: 600px;
+        }
+        
+        .signup-links a {
+            background: #c84848;
+            color: white;
+            padding: 18px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-align: center;
+            transition: background 0.3s;
+            border-left: 5px solid #a33838;
+        }
+        
+        .signup-links a:hover {
+            background: #a33838;
+        }
+        
+        .local-politics {
+            margin: 40px 0;
+        }
+        
+        .politics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .politics-grid a {
+            background: #f5f5f5;
+            padding: 15px;
+            text-decoration: none;
+            color: #2c5f7f;
+            border-left: 4px solid #c84848;
+            transition: background 0.3s;
+        }
+        
+        .politics-grid a:hover {
+            background: #e0e0e0;
+        }
+        
+        footer {
+            background: #2c5f7f;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+        
+        .footer-logo {
+            margin-bottom: 15px;
+        }
+        
+        .footer-logo img {
+            max-width: 80px;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.4em;
+            }
+            
+            .intro-with-logo {
+                flex-direction: column;
+            }
+            
+            .intro-logo {
+                text-align: center;
+            }
+            
+            .intro-logo img {
+                max-width: 150px;
+            }
+            
+            .social-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="cover.jpg" alt="United We Stand - Indivisible Cabarrus County">
+    </div>
     
-    <p>A chapter of <a href="https://indivisible.org/">https://indivisible.org/</a></p>
-    <a href="mailto:indivisibleconcordnc@gmail.com">Email us</a>
+    <div class="container">
+        <h1>Indivisible Cabarrus County</h1>
+        
+        <div class="intro-with-logo">
+            <div class="intro-logo">
+                <img src="logo.jpg" alt="Indivisible Cabarrus County Logo">
+            </div>
+            
+            <div class="intro-content">
+                <div class="intro">
+                    <p>Indivisible Cabarrus County was created in the summer of 2025 as a means to organize our areas first large scale anti-Trump rally. No Kings was a huge success and we've continued to harness that energy to create a coalition of like minded individuals in the area who will continue to resist the current threats to our democracy. We will do this by peaceful protests, holding our local elected leaders accountable, and promoting progressive candidates.</p>
+                    
+                    <p>We hope to create a sense of community for people who want to speak out about the dangers to democracy, free speech, human rights, access to health care and other basic liberties. Visibility of this movement and continued resistance is the only way to defeat those currently in power. Please join us so that our movement can grow even larger.</p>
+                    
+                    <p><strong>Indivisible is extremely committed to peaceful resistance. We will affect change through education, mutual aid, elections and relentless visible resistance.</strong></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://indivisible.org" target="_blank">National Indivisible Site</a>
+            <a href="https://www.facebook.com/p/Indivisible-Cabarrus-County-61575579419863/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/indivisible_concord_nc/" target="_blank">Instagram</a>
+            <a href="https://www.mobilize.us/solidaritywarriors/event/791150/" target="_blank">Mobilize Calendar</a>
+        </div>
+        
+        <div class="signup-section">
+            <h2>Get Involved</h2>
+            
+            <div class="signup-links">
+                <a href="https://forms.gle/r4Jex3KiWVoHsQbK6" target="_blank">📧 Newsletter and Membership Signup</a>
+                <a href="https://www.mobilize.us/indivisible/event/845159/" target="_blank">👑 No Kings Event Signup</a>
+            </div>
+        </div>
+        
+        <div class="local-politics">
+            <h2>Local Politics &amp; Resources</h2>
+            
+            <div class="politics-grid">
+                <a href="https://www.ncleg.gov/Members/CountyRepresentation/Cabarrus" target="_blank">NC General Assembly Representatives</a>
+                <a href="https://www.cabarruscounty.us/Government/Departments/Board-of-Elections" target="_blank">Cabarrus Board of Elections</a>
+                <a href="https://www.cabarrus.k12.nc.us/2486_2" target="_blank">Cabarrus County Board of Education Meeting Calendar</a>
+                <a href="https://www.cabarruscounty.us/Government/Departments/Board-of-Commissioners/Commissioner-Meetings" target="_blank">Cabarrus County Commissioner Meetings</a>
 
-    <p>More to come...</p>
-  </body>
+                <a href="https://concordnc.gov/Government/Documents-Resources/Council-Agenda" target="_blank">Concord City Council Meetings</a>
+                <a href="https://www.kannapolisnc.gov/Community/Calendar/ModuleID/650/ItemID/132/mctl/EventDetails" target="_blank">Kannapolis City Council Meetings</a>
+                <a href="https://www.harrisburgnc.org/279/Town-Council" target="_blank">Harrisburg Town Council</a>
+                <a href="https://mtpleasantnc.gov/Government/Board-of-Commissioners" target="_blank">Mt Pleasant Town Council Meetings</a>
+                <a href="https://www.midlandnc.us/departments/commissions_and_committees/town_council.php" target="_blank">Midland Town Council Meetings</a>
+                <a href="https://locustnc.com/city-council/" target="_blank">Locust City Council Meetings</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-logo">
+            <img src="logo.jpg" alt="Indivisible Cabarrus County">
+        </div>
+        <p>&copy; 2025 Indivisible Cabarrus County. United We Stand.</p>
+    </footer>
+</body>
 </html>
+
+
+
+        
+        
+        
